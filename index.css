@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 1px solid #a1cca5;
+}
+
+
+button {
+    background-color: #a1cca5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+#del-el {
+    background-color: #f7dba7;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    font-size: 15px;
+}
+
+a {
+    color: #f5ab00;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 0px white; */
+}
+
+#btn-div {
+    display: flex;
+    justify-content: space-between;
+}
